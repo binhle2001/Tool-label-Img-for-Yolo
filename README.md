@@ -26,7 +26,7 @@ result:
 ```python 
   python src/make_data_train.py name' 
 ```   
-## name is name of new employee after save face_image into raw  
+### name is name of new employee after save face_image into raw  
 
 # Train model Face identification
 ```python
@@ -37,10 +37,10 @@ result:
 ```python
   python src/face_rec_cam.py
 ```
-## Result of process was saved in 'Dataset/FaceData/processed/result.json'
+### Result of process was saved in 'Dataset/FaceData/processed/result.json'
 
 # Remove employee 
 ```python
   python src/delete_member.py name
 ```
-## name is name of employee
+### name is name of employee
