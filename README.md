@@ -8,7 +8,9 @@ relabels.py: label lại ảnh
 
 
 # Install env for python
-pip install -r requirements.txt
+```python 
+  pip install -r requirements.txt
+```
 
 # Init data
 face: ('python src/init_data_face.py')  
