@@ -13,8 +13,14 @@ relabels.py: label lại ảnh
 ```
 
 # Init data
-face: ('python src/init_data_face.py')  
-result: ('python src/init_data_result.py')  
+face: 
+```python 
+   python src/init_data_face.py
+```   
+result: 
+```python 
+  python src/init_data_result.py')
+```   
 
 # Add data of employee into train_data
 'python src/make_data_train.py name' 
