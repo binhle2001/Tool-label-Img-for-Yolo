@@ -19,20 +19,28 @@ face:
 ```   
 result: 
 ```python 
-  python src/init_data_result.py')
+  python src/init_data_result.py
 ```   
 
 # Add data of employee into train_data
-'python src/make_data_train.py name' 
+```python 
+  python src/make_data_train.py name' 
+```   
 ## name is name of new employee after save face_image into raw  
 
 # Train model Face identification
-'python src/train.py'
+```python
+  python src/train.py
+```   
 
-# Run Face-recognition process with webcam
-'python src/face_rec_cam.py'
+# Run Face-recognition process with webcam   
+```python
+  python src/face_rec_cam.py
+```
 ## Result of process was saved in 'Dataset/FaceData/processed/result.json'
 
 # Remove employee 
-'python src/delete_member.py name' 
+```python
+  python src/delete_member.py name
+```
 ## name is name of employee
