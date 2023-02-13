@@ -11,8 +11,8 @@ relabels.py: label lại ảnh
 pip install -r requirements.txt
 
 # Init data
-face: 'python src/init_data_face.py'
-result: 'python src/init_data_result.py'
+face: ('python src/init_data_face.py')  
+result: ('python src/init_data_result.py')  
 
 # Add data of employee into train_data
 'python src/make_data_train.py name' 
